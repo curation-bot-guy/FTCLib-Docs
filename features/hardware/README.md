@@ -47,7 +47,7 @@ The `SensorColor` class is just an extension for the `ColorSensor` class that is
 
 `SensorDistance` and `SensorDistanceEx` are interfaces for creating custom distance sensors if desired. An implementation of the `SensorDistanceEx` interface is `SensorRevTOFDistance` which utilizes the time-of-flight mechanic to track distance.
 
-The `RevColorSensorV3` is a combination of a TOF sensor and a color sensor.
+The `RevColorSensorV3` is a combination of a TOF sensor and a color sensor. At the moment, this is entirely nonfunctional. Do not use it.
 
 ## Servos
 
